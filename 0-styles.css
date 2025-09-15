@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-inline: 200px;
+    margin-top: 100px;
+}
+body ul li {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(177, 172, 172);
+    border-radius: 20px;
+    img {
+        border-radius: 20px;
+    }
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 20px;
+}
