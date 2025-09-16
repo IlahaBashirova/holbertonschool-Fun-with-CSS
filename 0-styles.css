@@ -12,5 +12,36 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    list-style: none;
+    gap: 50px;
+    margin-top: 50px;
+}
+li {
+    width:200px;
+    height: 300px;
+    border: 2px solid rgb(97, 95, 95);
+    box-shadow: 0 0 10px rgb(128, 126, 126);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+.icon {
+    display: block;
+    width: 120px;
+    height: 160px;
+    background: url('0-sprite.png') no-repeat;
+    background-size: 375px auto;
+    margin: 20px auto 0;
+}
+.i-html {
+    background-position: 0 0;
+}
+.i-css {
+    background-position: -125px 0;
+}
+.i-js {
+    background-position: -250px 0;
 }
